@@ -5,7 +5,7 @@ import pymongo
 
 url = 'mongodb://{user}:{pw}@{hosts}/?replicaSet={rs}&authSource={auth_src}'.format(
     user=quote('user1'),
-    pw=quote('<password>'),
+    pw=quote('realityTele2lity'),
     hosts=','.join([
         'rc1c-tplly2g13saa2p6m.mdb.yandexcloud.net:27018'
     ]),
